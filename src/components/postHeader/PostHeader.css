@@ -1,0 +1,35 @@
+.post__header {
+  padding: 10px 15px;
+}
+
+.post__headerContainer {
+  display: flex;
+  align-items: center;
+}
+
+.post__headerAvatar {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.post__headerInfo {
+  display: flex;
+  flex-direction: column;
+  line-height: 0;
+}
+
+.post__headerUserInfo {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.post__headerUserInfo p {
+  font-size: 14px;
+}
+
+.post__headerInfo p:nth-child(2) {
+  font-size: 11px;
+  margin-right: 5px;
+  color: rgb(158, 158, 158);
+}
