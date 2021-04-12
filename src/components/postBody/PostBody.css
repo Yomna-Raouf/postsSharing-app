@@ -1,0 +1,14 @@
+.post__body {
+  padding: 5px 40px;
+  color: rgb(97, 97, 97);
+}
+
+.post__body div {
+  margin-top: 10px;
+}
+
+.post__bodyImages img {
+  width: 400px;
+  border-radius: 10px;
+  object-fit: contain;
+}
