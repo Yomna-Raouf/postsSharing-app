@@ -1,0 +1,19 @@
+.post__footer {
+  padding: 0 40px;
+}
+
+.post__footerActivities {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.post__footerActivitiesLike,
+.post__footerActivitiesRepost,
+.post__footerActivitiesComments,
+.post__footerActivitiesShare {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-evenly;
+  width: 12%;
+}
