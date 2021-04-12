@@ -1,0 +1,9 @@
+.post {
+  width: 55%;
+  margin: 2em auto;
+}
+
+.post__container {
+  border: 1px solid #5ddcd2bd;
+  border-radius: 10px;
+}
