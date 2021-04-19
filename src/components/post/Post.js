@@ -4,13 +4,13 @@ import { PostHeader } from "../postHeader/PostHeader";
 
 import "./post.css";
 
-const Post = () => {
+const Post = ({ postData }) => {
   return (
     <div className="post">
       <div className="post__container">
-        <PostHeader />
-        <PostBody />
-        <PostFooter />
+        <PostHeader postData={postData} />
+        <PostBody postData={postData} />
+        <PostFooter postData={postData} />
       </div>
     </div>
   );

@@ -21,15 +21,25 @@
 .post__headerUserInfo {
   display: flex;
   align-items: center;
-  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .post__headerUserInfo p {
   font-size: 14px;
+  color: #17a2b8;
 }
 
 .post__headerInfo p:nth-child(2) {
   font-size: 11px;
-  margin-right: 5px;
+  margin-left: 5px;
   color: rgb(158, 158, 158);
+}
+
+.post__headerEdits {
+  margin-left: auto;
+  display: flex;
+}
+
+.post__headerEdits button {
+  margin-right: 10px;
 }

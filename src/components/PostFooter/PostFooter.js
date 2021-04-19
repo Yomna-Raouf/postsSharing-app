@@ -1,6 +1,6 @@
 import "./PostFooter.css";
 
-const PostFooter = () => {
+const PostFooter = ({ postData }) => {
   return (
     <div className="post__footer">
       <div className="post__footerActivities">
@@ -10,7 +10,7 @@ const PostFooter = () => {
             width="1.7rem"
             height="1.6rem"
             viewBox="0 0 17 16"
-            className="Activities_heart__lO_pi Activities_icon__3FBE3 "
+            className="Activities_heart Activities_icon__3FBE3 "
           >
             <g fillRule="evenodd">
               <g>
@@ -21,7 +21,7 @@ const PostFooter = () => {
               </g>
             </g>
           </svg>
-          <p>0</p>
+          <p>{postData?.num_of_likes}</p>
         </div>
         <div className="post__footerActivitiesRepost">
           <svg
@@ -51,7 +51,7 @@ const PostFooter = () => {
               fill="freeze"
             ></animateTransform>
           </svg>
-          <p>0</p>
+          <p>{postData?.num_of_reposts}</p>
         </div>
         <div className="post__footerActivitiesComments">
           <svg
@@ -70,7 +70,7 @@ const PostFooter = () => {
               </g>
             </g>
           </svg>
-          <p>0</p>
+          <p>{postData?.num_of_comments}</p>
         </div>
         <div className="post__footerActivitiesShare">
           <svg
