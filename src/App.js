@@ -1,10 +1,13 @@
 import "./App.css";
-import { Post } from "./components/post/Post";
+import PostsList from "./components/postsList/PostsList";
+import PostContextProvider from "./providers/PostContextProvider";
 
 function App() {
   return (
     <div className="App">
-      <Post />
+      <PostContextProvider>
+        <PostsList />
+      </PostContextProvider>
     </div>
   );
 }
