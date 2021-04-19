@@ -1,0 +1,18 @@
+.DeletePostIcon .MuiSvgIcon-root {
+  fill: #b01f27;
+}
+
+.DeletePostIcon button {
+  background-color: #eeeeee;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.DeletePostIcon button:hover {
+  cursor: pointer;
+}
