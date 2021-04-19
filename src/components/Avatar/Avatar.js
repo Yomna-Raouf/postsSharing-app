@@ -11,7 +11,7 @@ const Avatar = () => {
                 r="2.2rem"
                 fill="none"
                 strokeWidth="0.15rem"
-                stroke="var(--info)"
+                stroke="#17a2b8"
               ></circle>
             </clipPath>
           </defs>
@@ -29,7 +29,7 @@ const Avatar = () => {
             r="2.35rem"
             fill="none"
             strokeWidth="0.15rem"
-            stroke="var(--info)"
+            stroke="#17a2b8"
           ></circle>
         </g>
       </svg>
